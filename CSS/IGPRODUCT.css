@@ -1,0 +1,240 @@
+*{
+    margin: 0;
+}
+html,body{
+    width: 100%;
+    height: 100%;
+    margin: 0;
+    padding: 0;
+    overflow-x: hidden;
+}
+#pro-name{
+    height: 20px;
+    padding:3px;
+    background-color: rgba(250, 242, 70, 1.5);
+    font-family: "Sacramento", cursive;
+    font-weight: bold;
+    text-align: center;
+}
+.navbar{
+    height: 60px;
+    width: 100%;
+    background-color: #212529;
+    display: inline-flex;
+    gap: 30px;
+    align-items: center;
+}
+.first-con{
+    height: 60px;
+    width: 100%;
+    background-color: #212529;
+    display: inline-flex;
+    gap: 30px;
+    align-items: center;
+}
+
+.first-con a{
+    text-decoration: none;
+    color: whitesmoke;
+   
+}
+.logo{
+    font-size:x-large;
+    margin-left: 30px;
+    color: white;
+}
+.logos{
+    font-size:large;
+    margin-left: 20px;
+    margin-top: 10px;
+    margin-right: 40px;
+    color: white;
+}
+.search{
+    width: 250px;
+    height: 30px;
+    border: 1px solid white;
+    display: inline-flex;
+    gap: 10px;
+}
+.sea{
+    width: 50px;
+    background: #003049;
+    border: none;
+}
+input{
+    background-color: transparent;
+    color: whitesmoke;
+    width: 230px;
+}
+.sec-con{
+    display: inline-flex;   
+}
+.items{
+    transition: 0.4s;
+}
+.items:hover{
+    border: 2px solid white;
+    padding: 5px;
+}
+.image{
+    
+    height: 900px;
+    background-size: cover;
+    display: flex;
+}
+.layout-1{
+    margin-left: 70px;
+    display: flex;
+    justify-content: space-evenly;
+}
+.layout-2{
+    width: 100%;
+    height: 330px;
+}
+.box1,.box2,.box3,.box4{
+    width:330px ;
+    height: 340px;
+    border-radius: 25px;
+    background-color: #7209b7;
+    position: relative;
+    top: -400px;
+    text-align: center;
+    color: whitesmoke;
+    transition: 0.7s;
+}
+.box5{
+    width: 100%;
+    height: 345px;
+    background-color: #7209b7;
+    position: relative;
+    top: -340px;
+    display: flex;
+}
+.box6{
+    width: 100%;
+    height: 285px;
+    background-color: #7209b7;
+    position: relative;
+    top: -320px;
+    display: flex;
+}
+
+.box1 img{
+    padding: 10px;
+}
+.box1:hover{
+    transform: scale(1.1);
+    border-radius: 0;
+}
+.box2 img{
+    padding: 10px;
+}
+.box2:hover{
+    transform: scale(1.1);
+    border-radius: 0;
+}
+.box3 img{
+    padding: 10px;
+}
+.box3:hover{
+    transform: scale(1.1);
+    border-radius: 0;
+}
+.box4 img{
+    padding: 10px;
+}
+.box4:hover{
+    transform: scale(1.1);
+    border-radius: 0;
+}
+.box5 img{
+    padding: 18px;
+    transition:0.5s; 
+}
+.box6 img{
+    padding: 15px;
+    transition:0.5s; 
+}
+.box5 img:hover{
+    transform: scale(0.9);
+}
+.box6 img:hover{
+    transform: scale(0.9);
+}
+.footer{
+    width: 100%;
+    height: 340px;
+    background-color: #7209b7;
+    position: relative;
+    top: 5px;
+}
+.back{
+    width: 100%;
+    height: 30px;
+    background-color: rgba(250, 242, 70, 1.5);
+    text-align: center;
+    font-weight: bold;
+    font-size: large;
+    padding: 10px;
+}
+a{
+    text-decoration: none;
+}
+.fo-con{
+    padding: 20px;
+    font-size: larger;
+    display: flex;
+    justify-content:space-around;
+    color: whitesmoke;
+    
+}
+.info{
+    height: 120px;
+    text-align: center;
+    font-weight: bold;   
+    background-color: black;
+    color: whitesmoke;
+}
+.info a{
+    text-decoration: none;
+    color: whitesmoke;
+    font-size: xx-large;
+    margin-right: 40px;
+}
+.info a:hover{
+    color: #7209b7;
+}
+
+@media (max-width:1300px){
+    .layout-1{
+        display: grid;
+        grid-template-columns: repeat(2,330px);
+        grid-template-rows: repeat(2,340px);
+        gap: 50px;
+        position: relative;
+        top: -450px;
+    }
+    .box5{
+        position: relative;
+        top: -750px;
+        overflow-x: scroll;
+    }
+    .box6{
+        position: relative;
+        top: -700px;
+        overflow-x: scroll;
+    }
+    html,body{
+        height: 100%;
+    }
+}
+@media(max-width:500px){
+    .navabr{
+        width: 100px;
+        height: 100%;
+        display: flex;
+        flex-direction: column;
+        
+    }
+}
